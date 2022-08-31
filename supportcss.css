@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+
+.navbar-nav {
+  justify-content: center;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+#hov a:hover {
+  color: rgb(93, 190, 93);
+}
+
+.main{
+  background-position:center ;
+  background-size: cover;
+  width: 100%;
+  padding: 5%;
+  height: 522px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(117, 231, 115, 0.9),rgba(58, 85, 239, 0.9)),url(support.jpg);
+}
+
+.search-bar{
+  width: 100%;
+  max-width: 700px;
+  background: rgba(255,255,255,0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+}
+
+.search-bar input{
+  background: transparent;
+  border: 0;
+  outline: none;
+  flex: 1;
+  padding: 24px 20px;
+  font-size:20px;
+}
+
+
+.search-bar button img{
+  width: 25px;
+
+}
+.search-bar button{
+  border: 0;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  background:#58629b ;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+::placeholder
+{
+color: white !important;
+ font-size:25px;
+ font-weight: bolder;
+}
+
+
+
+.container{
+  position: relative;
+  top:600px;
+}

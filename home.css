@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-nav {
+  justify-content: center;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carousel-inner img
+{
+  height: 100vh;
+  width: 100%;
+}
+
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+#hov a:hover {
+  color: rgb(93, 190, 93);
+}
+
+
+
+
+.carousel-caption{
+  margin: auto;
+  position: absolute;
+  text-transform: uppercase;
+  right: 0;
+  left: 0;
+}
+
+.carousel-caption h1 {
+  font-size: 5.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+
+
+.carousel-item::before{
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.7;
+  background-color: black;
+}
+
+.carousel-caption p {
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 1.5rem;
+  text-shadow: .1rem .1rem .5rem black;
+}
+
+.carousel-caption button {
+  font-size: 25px;
+  color: white;
+  border-radius: 100px;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+@media (max-width:767px) {
+  .carousel-caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+  }
+
+  .carousel-caption button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:400px)
+{
+  .carousel-caption p {
+    font-size: 0.5rem;
+    display: none;
+  }
+
+  #everything{
+    position: relative;
+
+  }
+  .carousel-caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+
+}
+@media (max-width:320px)
+{
+  .carousel-caption p{
+    display: none;
+  }
+
+  #everything{
+    position: relative;
+    bottom: 204px;
+  }
+  .carousel-caption button {
+    position: relative;
+    bottom: 205px;
+    
+  }
+
+  .carousel-caption h1 {
+    position: relative;
+    bottom: 190px;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+}

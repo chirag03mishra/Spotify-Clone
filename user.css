@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-image: url("matt-botsford-OKLqGsCT8qs-unsplash.jpg");
+    background-size: 100%;
+        
+}
+
+#con{
+    
+    background-color: white;
+    padding:9px;
+    align-items: center;
+    text-align: left;
+    width: 350px;
+    position: relative;
+    margin: auto;
+    margin-top: 200px;
+}
+
+label{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.form-control{
+    border: 1.2px solid black;
+}
+
+
+.btn{
+    position: relative;
+    left: 30%;
+}
+
+
